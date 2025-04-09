@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo11.NosEquipementscontroller">
+   <children>
+      <Label prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: pink;" text="                 Nos Equipements ">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.011111111111111127" centerY="0.09523809523809523" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3438499867916107" green="0.3041999936103821" blue="0.7799999713897705" opacity="0.37931033968925476" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5201342281879194">
+                     <color>
+                        <Color red="0.3438499867916107" green="0.3041999936103821" blue="0.7799999713897705" opacity="0.37931033968925476" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9765100671140939">
+                     <color>
+                        <Color red="0.06513158231973648" green="0.04605263099074364" blue="0.2368421107530594" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9798657718120806">
+                     <color>
+                        <Color red="0.3438499867916107" green="0.3041999936103821" blue="0.7799999713897705" opacity="0.37931033968925476" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.25624391436576843" green="0.22331871092319489" blue="0.6184210777282715" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="349.0" fitWidth="200.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="349.0" fitWidth="211.0" layoutX="-6.0" layoutY="49.0">
+         <image>
+            <Image url="@../../../../../../../../Images/Captures%20d’écran/Capture%20d’écran%20du%202025-04-09%2010-35-18.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
